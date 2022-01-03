@@ -1,3 +1,4 @@
 # Viktoryia Mikhlai
 
-# Contacts
+# Contacts: phone number/email
+
