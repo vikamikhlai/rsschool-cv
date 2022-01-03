@@ -4,14 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="./assets/favicon.png">
+    <title>cv</title>
+    <script defer src="scripts/script.js"></script>
 </head>
 <body>
-    <header class="header">smth
+    <header class="header">
+        <div id="menuToggle" class="toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-
-    </div>
+    <main class="main">
+        <section class="section section-profile" id="profile">
+            <div class="section-profile__logo-container">
+                <img src="./assets/profile-logo.jpg" alt="profile-logo" class="section-profile__logo">
+            </div>
+            <div class="section-profile__title-container">
+                <h1 class="section-profile__title">Vika Mikhlai</h1>
+                <h3 class="section-profile__subtitle">Junior Front-End Developer</h3>
+            </div>        
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section__title">Contacts</h2>
+            <ul class="section__list">
+                <li class="section-item contacts-item">
+                Minsk, Belarus
+                </li>
+                <li class="section-item contacts-item">
+                Email: <a href="mailto:vikamikhlai@gmail.com" title="email">vikamikhlai@gmail.com</a>
+                </li>
+                <li class="section-item contacts-item">
+                Github: <a href="https://github.com/vikamikhlai" title="github">vikamikhlai</a>
+                </li>
+                <li class="section-item contacts-item">
+                Discord: <span title="discord">vikamikhlai#5777</span>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="summary">
+            <h2 class="section__title">Summary</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit reiciendis aliquam, labore consequatur commodi autem molestiae architecto ut odit, dignissimos illum, vero praesentium temporibus! Asperiores laboriosam similique quo totam animi!</p>
+            </section>
+            <section class="section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__list">
+                <li class="section-item">
+                <span> HTML5</span>
+                </li>
+                <li class="section-item">
+                <span>CSS3</span>
+                </li>
+                <li class="section-item">
+                <span>JavaScript</span>
+                </li>
+                <li class="section-item">
+                <span>Git</span>
+                </li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section__title">Code</h2>
+            <pre class="section__code">
+<code>function addSquares(a, b) {
+    function square(x) {
+        return x * x;
+    }
+    return square(a) + square(b);
+}</code></pre>
+        </section>
+        <section class="section" id="courses">
+            <h2 class="section__title">Courses</h2>
+            <ul class="section__list">
+                <li class="section-item">
+                <span>HTML and CSS on html academy</span>
+                </li>
+                <li class="section-item">
+                <span>JavaScript on learn.javascript</span>
+                </li>
+                <li class="section-item">
+                <span>JavaScript/Front-end on RS School</span>
+                </li>
+            </ul>
+        </section>
+        <section class="section section-education" id="education">
+            <h2 class="section__title">Education</h2>
+            <p>Belarusian State Economic University</p>
+        </section>
+        <section class="section section-english" id="english">
+            <h2 class="section__title">English</h2>
+            <p>B1 Intermediate</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>© 2022 <a href="https://github.com/vikamikhlai">vikamikhlai</a></div>
+        <a href="https://rs.school/js/" alt="RS School" class="footer__rs"></a>
+    </footer>
 </body>
 </html>
