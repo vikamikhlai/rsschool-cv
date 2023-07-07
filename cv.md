@@ -1,3 +1,3 @@
 # Viktoryia Mikhlai
 
-# Contacts: email vikamikhlai@gmail.com
+# Contacts: vikamikhlai@gmail.com
